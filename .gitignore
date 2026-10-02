@@ -1,0 +1,36 @@
+# ── Dataset (auto-downloaded by torchvision) ──
+data/
+
+# ── Training outputs ──
+# Model weights and raw loss arrays are large/regenerable.
+# To keep sample images for the README, the PNGs are re-included below.
+gan_outputs/*
+!gan_outputs/*.png
+gan_outputs/*.pth
+gan_outputs/*.npy
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ── Virtual environments ──
+venv/
+.venv/
+env/
+ENV/
+
+# ── IDEs / editors ──
+.vscode/
+.idea/
+*.swp
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──
+*.log
